@@ -1,0 +1,1 @@
+C:\x\PortableApps\SQLyog\app\SQLyogCommunity.exe

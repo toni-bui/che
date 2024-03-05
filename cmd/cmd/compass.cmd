@@ -1,0 +1,1 @@
+C:\x\PortableApps\compass\app\MongoDBCompass.exe --user-data-dir=C:\x\PortableApps\compass\data

@@ -1,0 +1,1 @@
+C:\x\PortableApps\Discord\app\Discord.exe --user-data-dir=C:\x\PortableApps\Discord\data %*

@@ -1,0 +1,1 @@
+C:\x\PortableApps\KMP64\app\KMPlayer64.exe %*

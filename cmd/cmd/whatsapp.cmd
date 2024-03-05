@@ -1,0 +1,1 @@
+C:\x\PortableApps\WhatsApp\app\WhatsApp.exe --use-tray-icon --user-data-dir=C:\x\PortableApps\WhatsApp\data %*

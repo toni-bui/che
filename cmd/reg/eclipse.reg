@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\eclipse]
+@="Open folder with Eclipse"
+"Icon"="C:\\x\\PortableApps\\eclipse\\app\\eclipse.exe,0"
+[HKEY_CURRENT_USER\Software\Classes\\Directory\Background\shell\eclipse\command]
+@="wscript C:\\x\\cmd\\run.vbs eclipse \"%V\""

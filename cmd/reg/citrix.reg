@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.ica\OpenWithProgids]
+"AppWSLCitrix"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Classes\AppWSLCitrix\shell\ica]
+@="Open with Citrix"
+"Icon"="C:\\x\\cmd\\icon\\citrix.ico,0"
+
+[HKEY_CURRENT_USER\Software\Classes\AppWSLCitrix\shell\ica\command]
+@="wscript C:\\x\\cmd\\run.vbs citrix \"%1\""

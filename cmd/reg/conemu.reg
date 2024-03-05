@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\conemu]
+@="Open command prompt"
+"Icon"="C:\\x\\PortableApps\\ConEmu\\App\\AppInfo\\appicon.ico,0"
+[HKEY_CURRENT_USER\Software\Classes\*\shell\conemu\command]
+@="wscript C:\\x\\cmd\\run.vbs conemu \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\conemu]
+@="Open command prompt"
+"Icon"="C:\\x\\PortableApps\\ConEmu\\App\\AppInfo\\appicon.ico,0"
+[HKEY_CURRENT_USER\Software\Classes\\Directory\shell\conemu\command]
+@="wscript C:\\x\\cmd\\run.vbs conemu \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\conemu]
+@="Open command prompt"
+"Icon"="C:\\x\\PortableApps\\ConEmu\\App\\AppInfo\\appicon.ico,0"
+[HKEY_CURRENT_USER\Software\Classes\\Directory\Background\shell\conemu\command]
+@="wscript C:\\x\\cmd\\run.vbs conemu \"%V\""

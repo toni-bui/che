@@ -1,0 +1,1 @@
+C:\x\PortableApps\Signal\app\Signal.exe --use-tray-icon --enable-dev-tools --user-data-dir=C:\x\PortableApps\Signal\data %*

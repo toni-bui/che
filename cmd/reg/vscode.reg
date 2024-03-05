@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\vscode]
+@="Edit with VSCode"
+"Icon"="C:\\x\\PortableApps\\VSCode\\Code.exe,0"
+[HKEY_CURRENT_USER\Software\Classes\*\shell\vscode\command]
+@="wscript C:\\x\\cmd\\run.vbs vscode \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\vscode]
+@="Edit with VSCode"
+"Icon"="C:\\x\\PortableApps\\VSCode\\Code.exe,0"
+[HKEY_CURRENT_USER\Software\Classes\\Directory\shell\vscode\command]
+@="wscript C:\\x\\cmd\\run.vbs vscode \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\vscode]
+@="Open folder with VSCode"
+"Icon"="C:\\x\\PortableApps\\VSCode\\Code.exe,0"
+[HKEY_CURRENT_USER\Software\Classes\\Directory\Background\shell\vscode\command]
+@="wscript C:\\x\\cmd\\run.vbs vscode \"%V\""

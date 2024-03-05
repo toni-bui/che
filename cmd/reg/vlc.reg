@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\vlc]
+@="Play with VLC"
+"Icon"="C:\\x\\PortableApps\\VLCPortable\\VLCPortable.exe,0"
+[HKEY_CURRENT_USER\Software\Classes\*\shell\vlc\command]
+@="C:\\x\\PortableApps\\VLCPortable\\VLCPortable.exe \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\vlc]
+@="Play with VLC"
+"Icon"="C:\\x\\PortableApps\\VLCPortable\\VLCPortable.exe,0"
+[HKEY_CURRENT_USER\Software\Classes\\Directory\shell\vlc\command]
+@="C:\\x\\PortableApps\\VLCPortable\\VLCPortable.exe \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\vlc]
+@="Queue with VLC"
+"Icon"="C:\\x\\PortableApps\\VLCPortable\\VLCPortable.exe,0"
+[HKEY_CURRENT_USER\Software\Classes\\Directory\Background\shell\vlc\command]
+@="C:\\x\\PortableApps\\VLCPortable\\VLCPortable.exe \"%V\""

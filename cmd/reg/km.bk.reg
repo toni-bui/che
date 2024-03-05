@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\KMPlayer]
+@="Play with KMPlayer"
+"Icon"="C:\\x\\PortableApps\\KMP64\\KMPlayer64.exe,0"
+[HKEY_CURRENT_USER\Software\Classes\*\shell\KMPlayer\command]
+@="C:\\x\\PortableApps\\KMP64\\KMPlayer64.exe \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\KMPlayer]
+@="Play with KMPlayer"
+"Icon"="C:\\x\\PortableApps\\KMP64\\KMPlayer64.exe,0"
+[HKEY_CURRENT_USER\Software\Classes\\Directory\shell\KMPlayer\command]
+@="C:\\x\\PortableApps\\KMP64\\KMPlayer64.exe \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\KMPlayer]
+@="Queue with KMPlayer"
+"Icon"="C:\\x\\PortableApps\\KMP64\\KMPlayer64.exe,0"
+[HKEY_CURRENT_USER\Software\Classes\\Directory\Background\shell\KMPlayer\command]
+@="C:\\x\\PortableApps\\KMP64\\KMPlayer64.exe \"%V\""
